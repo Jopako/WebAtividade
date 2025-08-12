@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Playwrite+HU:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Great+Vibes&family=Playwrite+HU:wght@100..400&display=swap'); 
+
 h1
 {
     font-family: "Archivo Black", sans-serif;   
@@ -16,11 +17,12 @@ h2
 }
 p
 {
-  font-family: "Archivo Black", sans-serif;   
     text-align: center;
-    font-weight: 200;
+    font-weight: 1000;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    color: black;
 }
 li
 {
@@ -29,7 +31,7 @@ li
 }
 body
 {
-background-color: grey;
+background-color: #F4E6CB;
 }
 img
 {
@@ -47,26 +49,33 @@ img
 .sopa 
 {
     width: 200px;
-    background: #1b4d2b;
+    background: #2B5039;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.letreiro-container
+.letreiro
 {
     display: flex;
-    gap: 200px; 
     justify-content: center;
-    align-items: flex-start;
+   
 }
 
-.letreiro {
-    width: 320px;
-    height: 150px;
-    background: #1b4d2b;
-    padding: 4px 0;
-    border-radius: 20px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
-    margin: 1px auto;
+#logo
+{
+    width: 300px;
+    height: 300px;
+}
+
+#cabecalho
+{
+    text-align: center;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "Pacifico", cursive;
+    color: #2B5039;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: black;
 }
