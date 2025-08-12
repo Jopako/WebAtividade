@@ -8,6 +8,12 @@ h1
     font-style: normal;
     font-size: 60px;
 }
+h2
+{
+    font-family: "Archivo Black", sans-serif;   
+    font-size: 35px;
+    text-align: center;
+}
 p
 {
   font-family: "Archivo Black", sans-serif;   
@@ -15,6 +21,11 @@ p
     font-weight: 200;
     font-style: normal;
     font-size: 15px;
+}
+li
+{
+    font-family: "Archivo Black", sans-serif;   
+    font-size: 20px;
 }
 body
 {
@@ -24,4 +35,38 @@ img
 {
     width:200px;
     height:150px;
+}
+.sopas-container 
+{
+    display: flex;
+    gap: 200px; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sopa 
+{
+    width: 200px;
+    background: #1b4d2b;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.letreiro-container
+{
+    display: flex;
+    gap: 200px; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.letreiro {
+    width: 320px;
+    height: 150px;
+    background: #1b4d2b;
+    padding: 4px 0;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    margin: 1px auto;
 }
