@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Playwrite+HU:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Great+Vibes&family=Playwrite+HU:wght@100..400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Michroma&display=swap');
 
 h1
 {
-    font-family: "Archivo Black", sans-serif;   
+    font-family: "Pacifico", cursive;
     text-align: center;
     font-weight: 200;
     font-style: normal;
@@ -11,8 +12,20 @@ h1
 }
 h2
 {
-    font-family: "Archivo Black", sans-serif;   
-    font-size: 35px;
+   font-family: "Pacifico", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: #2B5039;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 8px #b6c7b6;
+    position: relative;
+}
+
+h3
+{
+     font-family: "Google Sans Code", monospace;
+    font-size: 30px;
     text-align: center;
 }
 p
@@ -26,46 +39,51 @@ p
 }
 li
 {
-    font-family: "Archivo Black", sans-serif;   
+    font-family: "Pacifico", cursive;  
     font-size: 20px;
 }
 body
 {
-background-color: #F4E6CB;
+    background-color: #F4E6CB;
 }
 img
 {
     width:200px;
     height:150px;
+    border-radius: 4px;
+ 
 }
-.sopas-container 
-{
+.sopas-container {
     display: flex;
-    gap: 200px; 
+    gap: 60px; 
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
 }
 
-.sopa 
-{
-    width: 200px;
+.sopa {
+    width: 250px;
+    min-height: 420px;
     background: #2B5039;
-    padding: 10px;
+    padding: 30px 50px;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .letreiro
 {
     display: flex;
     justify-content: center;
-   
+    align-items: center;
 }
 
 #logo
 {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 }
 
 #cabecalho
@@ -73,9 +91,109 @@ img
     text-align: center;
     font-weight: 1000;
     font-style: normal;
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Pacifico", cursive;
     color: #2B5039;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
+}
+
+.divisoria
+{
+    border: 3px solid #2B5039;
+    margin: 20px 0;
+}
+
+.imgSopa
+{
+   
+    width: 180px;
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.imgBebida
+{
+    width: 180px;
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.sopa h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #C4A36F;
+    text-shadow: 1px 1px 4px #1a2f1e;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.sopa p {
+    font-size: 17px;
+    color: #C4A36F;
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Archivo Black", sans-serif;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black; 
+}
+.sopa p.preco 
+{
+
+    font-size: 25px;
+    color: #C4A36F;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
+}
+.bebidas-container {
+    display: flex;
+    gap: 60px; 
+    justify-content: center;
+    align-items: stretch;
+}
+.bebida h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #C4A36F;
+    text-shadow: 1px 1px 4px #1a2f1e;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.bebida {
+    width: 250px;
+    min-height: 420px;
+    background: #2B5039;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.bebida p {
+    font-size: 17px;
+    color: #C4A36F;
+    text-align: center;
+    margin-top: 8px;
+    font-family: "Archivo Black", sans-serif;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black; 
+}
+.bebida p.preco 
+{
+    font-size: 25px;
+    color: #C4A36F;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black; 
 }
